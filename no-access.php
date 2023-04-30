@@ -55,6 +55,8 @@ function display_pages() {
     }
 
     echo "</select>";
+    // Add instruction text below the Select Blocked Pages module
+    echo "<p class='description'>Select the desired pages to be locked. You can use <code>Ctrl + Click</code> to add multiple pages to your selection.</p>";
 }
 
 function display_options() {
